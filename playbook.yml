@@ -64,7 +64,7 @@
   - name: Temporarily use this nameserver during initial config and setup
     lineinfile:
       path: /etc/resolvconf/resolv.conf.d/head
-      line: 'nameserver 80.80.80.80'
+      line: 'nameserver 8.8.8.8'
       insertafter: EOF
       
   - name: Set update flag and update resolvconf
@@ -222,7 +222,7 @@
   - name: Use Adguard IPv4 as resolver for localhost
     replace:
       path: /etc/resolvconf/resolv.conf.d/head
-      regexp: 'nameserver 80.80.80.80'
+      regexp: 'nameserver 8.8.8.8'
       replace: 'nameserver {{ ansible_default_ipv4.address }}'
 
   - name: Add Adguard IPv6 as resolver for localhost
