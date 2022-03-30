@@ -35,7 +35,7 @@ This is required to generate a valid Let's Encrypt SSL Certificate and used for 
 ## Installation Instructions
 1. Install Ansible using `sudo apt install ansible` on the machine that will initiate the playbook.
 
-2. Clone repository using `git clone https://github.com/Freekers/ansible-adguard.git`
+2. Clone repository using `git clone https://github.com/TeraDNS/dns-server.git`
 
 3. Edit the `hosts` file to reflect your setup, i.e. change domain etc. `playbook.yml` does NOT need to be changed!
 
