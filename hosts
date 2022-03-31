@@ -8,7 +8,7 @@
 #123.123.123.123 ansible_user=demo ansible_ssh_private_key_file=/home/demo/.ssh/privkey.pem 
 
 #Option 3 - Uncomment and use the example below when running Ansible locally on the server itself.
-#127.0.0.1 ansible_connection=local
+127.0.0.1 ansible_connection=local
 
 [adguard:vars]
 #Fully Qualified Domain Name (FQDN) with A (and AAAA) record pointing to your server's IP
