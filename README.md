@@ -33,7 +33,7 @@ This is required to generate a valid Let's Encrypt SSL Certificate used for DoH 
 This is required to generate a valid Let's Encrypt SSL Certificate and used for DoH & DoT.
 
 ## Installation Instructions
-1. Install Ansible using `sudo apt install ansible` on the machine that will initiate the playbook.
+1. Install Ansible using `sudo apt install ansible git -y` on the machine that will initiate the playbook.
 
 2. Clone repository using `git clone https://github.com/TeraDNS/dns-server-setup.git`
 
