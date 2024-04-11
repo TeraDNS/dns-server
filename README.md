@@ -77,4 +77,4 @@ If needed, for manual configuration of Ouroboros, [please refer to their officia
 - [Commonly whitelisted domains](https://github.com/Freekers/whitelist) Whitelist by Freekers
 
 ## License
-Unless otherwise specified, all code in this repository is released under the GNU Affero General Public License v3.0. See the [repository's `LICENSE` file](https://github.com/TeraDNS/ansible-adguard/blob/master/LICENSE) for details.
+Unless otherwise specified, all code in this repository is released under the GNU Affero General Public License v3.0. See the [repository's `LICENSE` file](https://github.com/TeraDNS/dns-server-setup/blob/master/LICENSE) for details.
